@@ -58,11 +58,15 @@ app.addButton("Mostrar",mostrar_contactos)
 
 app.setFont(20)
 app.addTable("g1",
-    [["Name", "Age", "Gender"],
+    [["Nombre", "Teléfono", "Email"],
     ["Fred", 45, "Male"],
     ["Tina", 37, "Female"],
     ["Clive", 28, "Male"],
     ["Betty", 51, "Female"]])
-app.go()
 
 app.go()
+
+
+
+
+
